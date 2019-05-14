@@ -90,7 +90,7 @@ this is ChartDemos.
   #  Not including the public_header_files will make all headers public.
   #
 
-  spec.source_files  = "Classes", "ABBChartDemos/ABBChartsDemos/ABBChartsDemos/Classes/*.{h,m}"
+  spec.source_files  = "Classes", "ABBChartsDemos/ABBChartsDemos/Classes/**/*.{h,m}"
   spec.requires_arc = true
 
   # spec.public_header_files = "Classes/**/*.h"
